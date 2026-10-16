@@ -1,0 +1,17 @@
+Bash
+
+python jarvis_master.py --web --sem-palmas
+  
+Acesse no navegador: http://127.0.0.1:5000
+
+Requisitos de Hardware Avaliados
+
+Durante a coleta automática, o agente verifica:
+
+Memória RAM: Mínimo de 4 GB.
+
+Processador (CPU): Uso percentual de processamento.
+
+Armazenamento: Espaço livre nas partições (alerta se < 10%).
+
+Conectividade: IP Local, Gateway, DNS e teste HTTP/Ping ao portal sipiact.mdh.gov.br.

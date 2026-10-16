@@ -1,0 +1,20 @@
+# 🛠️ Manual de Operação — JARVIS Master (Versão Portátil)
+
+## 1. Descrição do Agente
+O **JARVIS Master** é uma solução em Python/Flask desenvolvida para auditorias técnicas rápidas e diagnóstico de infraestrutura de TI nas unidades da SMAS Várzea Grande, com foco em:
+- Cumprimento da C.I. Nº 277/SMAS/GAB/VG/2026.
+- Adequação ao Procedimento SIMP nº 016539-006/2025 (Selo UNICEF / Ministério Público).
+
+## 2. Estrutura da Ferramenta
+A aplicação é executada diretamente da raiz ou de um drive removível (`J:\`), utilizando as seguintes pastas:
+- `config/`: Configurações e variáveis de ambiente (`.env`).
+- `docs/`: Base de conhecimento local e manuais em Markdown/TXT (RAG).
+- `logs/`: Histórico de atividades do sistema (`jarvis_activity.log`).
+- `reports/`: Relatórios gerados nos formatos TXT, DOCX e PDF.
+
+## 3. Como Executar em Campo
+
+### Modo 1: Coleta e Geração Automática de Relatório (CLI)
+Para realizar o diagnóstico rápido do computador e gerar o parecer em PDF/DOCX:
+```bash
+python jarvis_master.py --relatorio
